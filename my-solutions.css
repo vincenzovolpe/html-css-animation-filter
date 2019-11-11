@@ -42,3 +42,47 @@
 .ex-5-square:active {
     transform: scale(0.5);
 }
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+.ex-7-img {
+    transition: all 2s;
+}
+
+.ex-7-img:hover {
+    filter: sepia(50%);
+}
+
+.ex-8-img {
+    transition: all 3s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(80%);
+    border-radius: 20px;
+}
+
+.ex-9-img {
+    transition: all 3s;
+}
+
+.ex-9-img:hover {
+    filter: grayscale(80%);
+    border-radius: 20px;
+    transform: scale(1.5);
+}
+
+.ex-10-icon {
+    animation: rotation 1s infinite linear reverse;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
